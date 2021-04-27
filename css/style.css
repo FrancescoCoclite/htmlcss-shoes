@@ -21,7 +21,6 @@ li{
     background-color: white;
     border-radius: 50%;
     padding:0 10px;
-    
 }
 .container{
     position: relative;
@@ -39,10 +38,15 @@ li{
     left:50%;
     transform: translate(-50%, -50%);
     font-size: 45px;
+    
     color:yellow;
     text-transform: uppercase;
     text-align: center;
 }
+.descrizione-scarpa:hover{
+    text-shadow: 20px 2px black;
+}
+
 #scarpa-1{
     background-color: red;
 }
